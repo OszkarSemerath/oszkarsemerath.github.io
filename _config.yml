@@ -1,3 +1,5 @@
 theme: jekyll-theme-minimal
+layout: sidebar
+style: dark
 web_url: https://oszkarsemerath.github.io
 image_url: asdasd
