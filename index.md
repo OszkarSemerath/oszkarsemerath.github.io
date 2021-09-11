@@ -4,6 +4,10 @@ todo
 
 ## Research Interest
 
+## Education
+
+* PhD [dissertation](content/phd-thesis-semerath.pdf) 
+
 ## Publications
 
 **Selected publications**
