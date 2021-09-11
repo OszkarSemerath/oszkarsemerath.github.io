@@ -6,7 +6,7 @@ todo
 
 ## Education
 
-* PhD [dissertation](content/phd-thesis-semerath.pdf) 
+* PhD [dissertation](https://oszkarsemerath.github.io/content/phd-thesis-semerath.pdf) 
 
 ## Publications
 
