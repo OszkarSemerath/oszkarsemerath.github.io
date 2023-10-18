@@ -1,8 +1,12 @@
 ## Introduction
 
-todo
+Oszkár Semeráth is an assistant professor at the Department of Measurement and Information Systems at Budapest University of Technology. His research focuses on modeling technologies, and the application and development of specialized logic solvers for graph generation.
+He is the lead developer of the VIATRA Solver graph generator framework.
+He won IEEE/ACM best paper award at the MODELS 2013 conference, Young Researcher Award from the Hungarian Academy of Science, John George Kemeny Award from John von Neumann Computer Socienty, Amazon Research Award, and the scholarship of the New National Excellence Program three times.
 
 ## Research Interest
+
+Modeling Tools and Technologies, Formal Logic
 
 ## Education
 
