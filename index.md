@@ -36,8 +36,3 @@ Software and Systems Modeling 16 (2), 357-392
 **Graph Constraint Evaluation over Partial Models by Constraint Rewriting**,
 International Conference on Theory and Practice of Model Transformation (ICMT 2017), Marburg, Germany
 
-**List of publications**
-
-## Education
-
-## Awards and Scholarships
