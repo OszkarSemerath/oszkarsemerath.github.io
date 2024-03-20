@@ -1,18 +1,19 @@
-@article{MTMT:31360895,
-	title = {Automated Generation of Consistent Graph Models with Multiplicity Reasoning},
-	url = {https://m2.mtmt.hu/api/publication/31360895},
-	author = {Marussy, Kristóf and Semeráth, Oszkár and Varró, Dániel},
-	doi = {10.1109/TSE.2020.3025732},
+@article{MTMT:34375495,
+	title = {Concretization of Abstract Traffic Scene Specifications Using Metaheuristic Search},
+	url = {https://m2.mtmt.hu/api/publication/34375495},
+	author = {Babikian, Aren A. and Semeráth, Oszkár and Varró, Dániel},
+	doi = {10.1109/TSE.2023.3331254},
 	journal-iso = {IEEE T SOFTWARE ENG},
 	journal = {IEEE TRANSACTIONS ON SOFTWARE ENGINEERING},
-	volume = {48},
-	unique-id = {31360895},
+	volume = {50},
+	unique-id = {34375495},
 	issn = {0098-5589},
-	abstract = {Advanced tools used in model-based systems engineering (MBSE) frequently represent their models as graphs. In order to test those tools, the automated generation of well-formed (or intentionally malformed) graph models is necessitated which is often carried out by solver-based model generation techniques. In many model generation scenarios, one needs more refined control over the generated unit tests to focus on the more relevant models. Type scopes allow to precisely define the required number of newly generated elements, thus one can avoid the generation of unrealistic and highly symmetric models having only a single type of elements. In this paper, we propose a 3-valued scoped partial modeling formalism, which innovatively extends partial graph models with predicate abstraction and counter abstraction. As a result, well-formedness constraints and multiplicity requirements can be evaluated in an approximated way on incomplete (unfinished) models by using advanced graph query engines with numerical solvers (e.g., IP or LP solvers). Based on the refinement of 3-valued scoped partial models, we propose an efficient model generation algorithm that generates models that are both well-formed and satisfy the scope requirements. We show that the proposed approach scales significantly better than existing SAT-solver techniques or the original graph solver without multiplicity reasoning. We illustrate our approach in a complex design-space exploration case study of collaborating satellites introduced by researchers at NASA JPL.},
-	year = {2022},
+	abstract = {Existing safety assurance approaches for autonomous vehicles (AVs) perform system-level safety evaluation by placing the AV-under-test in challenging traffic scenarios captured by abstract scenario specifications and investigated in realistic traffic simulators. As a first step towards scenario-based testing of AVs, the initial scene of a traffic scenario must be concretized. In this context, the scene concretization challenge takes as input a high-level specification of abstract traffic scenes and aims to map them to concrete scenes where exact numeric initial values are defined for each attribute of a vehicle (e.g. position or velocity). In this paper, we propose a traffic scene concretization approach that places vehicles on realistic road maps such that they satisfy an extensible set of abstract constraints defined by an expressive scene specification language which also supports static detection of inconsistencies. Then, abstract constraints are mapped to corresponding numeric constraints, which are solved by metaheuristic search with customizable objective functions and constraint aggregation strategies. We conduct a series of experiments over three realistic road maps to compare eight configurations of our approach with three variations of the state-of-the-art Scenic tool, and to evaluate its scalability.},
+	keywords = {Multiobjective optimization; evolutionary algorithm; Computer Science, Software Engineering; Scenario Description Language; Assurance for autonomous vehicles; traffic scene concretization},
+	year = {2024},
 	eissn = {1939-3520},
-	pages = {1610-1629},
-	orcid-numbers = {Marussy, Kristóf/0000-0002-9135-8256; Varró, Dániel/0000-0002-8790-252X}
+	pages = {48-68},
+	orcid-numbers = {Varró, Dániel/0000-0002-8790-252X}
 }
 
 @article{MTMT:32394785,
@@ -33,6 +34,18 @@
 	orcid-numbers = {Marussy, Kristóf/0000-0002-9135-8256; Varró, Dániel/0000-0002-8790-252X}
 }
 
+@inproceedings{MTMT:33648748,
+	title = {Consistent Scene Graph Generation by Constraint Optimization},
+	url = {https://m2.mtmt.hu/api/publication/33648748},
+	author = {Chen, Boqi and Marussy, Kristóf and Pilarski, Sebastian and Semeráth, Oszkár and Varró, Dániel},
+	booktitle = {ASE '22: Proceedings of the 37th IEEE/ACM International Conference on Automated Software Engineering},
+	doi = {10.1145/3551349.3560433},
+	unique-id = {33648748},
+	year = {2022},
+	pages = {1-13},
+	orcid-numbers = {Marussy, Kristóf/0000-0002-9135-8256; Varró, Dániel/0000-0002-8790-252X}
+}
+
 @inproceedings{MTMT:33283704,
 	title = {An Initial Performance Analysis of Graph Predicate Evaluation over Partial Models},
 	url = {https://m2.mtmt.hu/api/publication/33283704},
@@ -43,6 +56,34 @@
 	year = {2022},
 	pages = {1-4},
 	orcid-numbers = {Ficsor, Attila/0000-0002-0541-4590}
+}
+
+@article{MTMT:31360895,
+	title = {Automated Generation of Consistent Graph Models with Multiplicity Reasoning},
+	url = {https://m2.mtmt.hu/api/publication/31360895},
+	author = {Marussy, Kristóf and Semeráth, Oszkár and Varró, Dániel},
+	doi = {10.1109/TSE.2020.3025732},
+	journal-iso = {IEEE T SOFTWARE ENG},
+	journal = {IEEE TRANSACTIONS ON SOFTWARE ENGINEERING},
+	volume = {48},
+	unique-id = {31360895},
+	issn = {0098-5589},
+	abstract = {Advanced tools used in model-based systems engineering (MBSE) frequently represent their models as graphs. In order to test those tools, the automated generation of well-formed (or intentionally malformed) graph models is necessitated which is often carried out by solver-based model generation techniques. In many model generation scenarios, one needs more refined control over the generated unit tests to focus on the more relevant models. Type scopes allow to precisely define the required number of newly generated elements, thus one can avoid the generation of unrealistic and highly symmetric models having only a single type of elements. In this paper, we propose a 3-valued scoped partial modeling formalism, which innovatively extends partial graph models with predicate abstraction and counter abstraction. As a result, well-formedness constraints and multiplicity requirements can be evaluated in an approximated way on incomplete (unfinished) models by using advanced graph query engines with numerical solvers (e.g., IP or LP solvers). Based on the refinement of 3-valued scoped partial models, we propose an efficient model generation algorithm that generates models that are both well-formed and satisfy the scope requirements. We show that the proposed approach scales significantly better than existing SAT-solver techniques or the original graph solver without multiplicity reasoning. We illustrate our approach in a complex design-space exploration case study of collaborating satellites introduced by researchers at NASA JPL.},
+	year = {2022},
+	eissn = {1939-3520},
+	pages = {1610-1629},
+	orcid-numbers = {Marussy, Kristóf/0000-0002-9135-8256; Varró, Dániel/0000-0002-8790-252X}
+}
+
+@inproceedings{MTMT:32605462,
+	title = {Towards the Formal Semantics of Scenario Tests for Autonomous Vehicles},
+	url = {https://m2.mtmt.hu/api/publication/32605462},
+	author = {Kovacs, Laszlo and Semeráth, Oszkár},
+	booktitle = {2021 10th Latin-American Symposium on Dependable Computing (LADC)},
+	doi = {10.1109/LADC53747.2021.9672554},
+	unique-id = {32605462},
+	year = {2021},
+	pages = {01-04}
 }
 
 @article{MTMT:32028274,
@@ -62,33 +103,6 @@
 	orcid-numbers = {Marussy, Kristóf/0000-0002-9135-8256; Varró, Dániel/0000-0002-8790-252X}
 }
 
-@{MTMT:32605462,
-	title = {Towards the Formal Semantics of Scenario Tests for Autonomous Vehicles},
-	url = {https://m2.mtmt.hu/api/publication/32605462},
-	author = {Kovacs, Laszlo and Semeráth, Oszkár},
-	booktitle = {2021 10th Latin-American Symposium on Dependable Computing (LADC)},
-	doi = {10.1109/LADC53747.2021.9672554},
-	unique-id = {32605462},
-	year = {2021},
-	pages = {01-04}
-}
-
-@article{MTMT:30748493,
-	title = {Diversity of Graph Models and Graph Generators in Mutation Testing},
-	url = {https://m2.mtmt.hu/api/publication/30748493},
-	author = {Semeráth, Oszkár and Farkas, Rebeka and Bergmann, Gábor and Varró, Dániel},
-	doi = {10.1007/s10009-019-00530-6},
-	journal-iso = {INT J SOFTW TOOLS TECHN TRANSFER},
-	journal = {INTERNATIONAL JOURNAL ON SOFTWARE TOOLS FOR TECHNOLOGY TRANSFER},
-	volume = {22},
-	unique-id = {30748493},
-	issn = {1433-2779},
-	year = {2020},
-	eissn = {1433-2787},
-	pages = {57-78},
-	orcid-numbers = {Bergmann, Gábor/0000-0002-2556-2582; Varró, Dániel/0000-0002-8790-252X}
-}
-
 @inproceedings{MTMT:31160534,
 	title = {Automated Generation of Consistent Graph Models with First-Order Logic Theorem Provers},
 	url = {https://m2.mtmt.hu/api/publication/31160534},
@@ -98,6 +112,18 @@
 	unique-id = {31160534},
 	year = {2020},
 	pages = {441-461},
+	orcid-numbers = {Varró, Dániel/0000-0002-8790-252X}
+}
+
+@inproceedings{MTMT:31872191,
+	title = {Automated video game world map synthesis by model-based techniques},
+	url = {https://m2.mtmt.hu/api/publication/31872191},
+	author = {Chen, Boqi and Havelock, Dylan and Plante, Connor and Sukkarieh, Michael and Semeráth, Oszkár and Varró, Dániel},
+	booktitle = {Proceedings of the 23rd ACM/IEEE International Conference on Model Driven Engineering Languages and Systems: Companion Proceedings},
+	doi = {10.1145/3417990.3422001},
+	unique-id = {31872191},
+	year = {2020},
+	pages = {1-5},
 	orcid-numbers = {Varró, Dániel/0000-0002-8790-252X}
 }
 
@@ -116,16 +142,20 @@
 	orcid-numbers = {Marussy, Kristóf/0000-0002-9135-8256; Varró, Dániel/0000-0002-8790-252X}
 }
 
-@inproceedings{MTMT:31872191,
-	title = {Automated video game world map synthesis by model-based techniques},
-	url = {https://m2.mtmt.hu/api/publication/31872191},
-	author = {Chen, Boqi and Havelock, Dylan and Plante, Connor and Sukkarieh, Michael and Semeráth, Oszkár and Varró, Dániel},
-	booktitle = {Proceedings of the 23rd ACM/IEEE International Conference on Model Driven Engineering Languages and Systems: Companion Proceedings},
-	doi = {10.1145/3417990.3422001},
-	unique-id = {31872191},
+@article{MTMT:30748493,
+	title = {Diversity of Graph Models and Graph Generators in Mutation Testing},
+	url = {https://m2.mtmt.hu/api/publication/30748493},
+	author = {Semeráth, Oszkár and Farkas, Rebeka and Bergmann, Gábor and Varró, Dániel},
+	doi = {10.1007/s10009-019-00530-6},
+	journal-iso = {INT J SOFTW TOOLS TECHN TRANSFER},
+	journal = {INTERNATIONAL JOURNAL ON SOFTWARE TOOLS FOR TECHNOLOGY TRANSFER},
+	volume = {22},
+	unique-id = {30748493},
+	issn = {1433-2779},
 	year = {2020},
-	pages = {1-5},
-	orcid-numbers = {Varró, Dániel/0000-0002-8790-252X}
+	eissn = {1433-2787},
+	pages = {57-78},
+	orcid-numbers = {Bergmann, Gábor/0000-0002-2556-2582; Varró, Dániel/0000-0002-8790-252X}
 }
 
 @inproceedings{MTMT:31872205,
@@ -140,20 +170,7 @@
 	orcid-numbers = {Marussy, Kristóf/0000-0002-9135-8256; Varró, Dániel/0000-0002-8790-252X}
 }
 
-@{MTMT:30748475,
-	title = {Viatra Solver: A Framework for the Automated Generation of Consistent Domain-Specific Models},
-	url = {https://m2.mtmt.hu/api/publication/30748475},
-	author = {Semeráth, Oszkár and Aren, A Babikian and Sebastian, Pilarski and Varró, Dániel},
-	booktitle = {2019 IEEE/ACM 41st International Conference on Software Engineering: Companion Proceedings (ICSE-Companion)},
-	doi = {10.1109/ICSE-Companion.2019.00034},
-	unique-id = {30748475},
-	abstract = {VIATRA Solver [1] is a novel open source software tool to automatically synthesize consistent and diverse domain-specific graph models to be used as a test suite for the systematic testing of CPS modelling tools. Taking a metamodel, and a set of well-formedness constraints of a domain as input, the solver derives a diverse set of consistent graph models where each graph is compliant with the metamodel, satisfies consistency constraints, and structurally different from each other. The tool is integrated into the Eclipse IDE or it is executable from the command line.},
-	year = {2019},
-	pages = {43-46},
-	orcid-numbers = {Varró, Dániel/0000-0002-8790-252X}
-}
-
-@{MTMT:30748490,
+@inproceedings{MTMT:30748490,
 	title = {Towards System-Level Testing with Coverage Guarantees for Autonomous Vehicles},
 	url = {https://m2.mtmt.hu/api/publication/30748490},
 	isbn = {9781728125367},
@@ -166,11 +183,24 @@
 	orcid-numbers = {Hajdu, Csaba/0000-0002-1058-7525; Marussy, Kristóf/0000-0002-9135-8256; Micskei, Zoltán Imre/0000-0003-1846-261X; Varró, Dániel/0000-0002-8790-252X}
 }
 
+@inproceedings{MTMT:30748475,
+	title = {Viatra Solver: A Framework for the Automated Generation of Consistent Domain-Specific Models},
+	url = {https://m2.mtmt.hu/api/publication/30748475},
+	author = {Semeráth, Oszkár and Aren, A Babikian and Sebastian, Pilarski and Varró, Dániel},
+	booktitle = {2019 IEEE/ACM 41st International Conference on Software Engineering: Companion Proceedings (ICSE-Companion)},
+	doi = {10.1109/ICSE-Companion.2019.00034},
+	unique-id = {30748475},
+	abstract = {VIATRA Solver [1] is a novel open source software tool to automatically synthesize consistent and diverse domain-specific graph models to be used as a test suite for the systematic testing of CPS modelling tools. Taking a metamodel, and a set of well-formedness constraints of a domain as input, the solver derives a diverse set of consistent graph models where each graph is compliant with the metamodel, satisfies consistency constraints, and structurally different from each other. The tool is integrated into the Eclipse IDE or it is executable from the command line.},
+	year = {2019},
+	pages = {43-46},
+	orcid-numbers = {Varró, Dániel/0000-0002-8790-252X}
+}
+
 @mastersthesis{MTMT:31347768,
 	title = {Formal validation and model generation for domain-specific languages by logic solvers},
 	url = {https://m2.mtmt.hu/api/publication/31347768},
 	author = {Semeráth, Oszkár},
-	publisher = {Budapesti Műszaki és Gazdaságtudományi Egyetem},
+	publisher = {Budapest University of Technology and Economics},
 	unique-id = {31347768},
 	year = {2019}
 }
@@ -185,6 +215,18 @@
 	year = {2018},
 	pages = {285-312},
 	orcid-numbers = {Varró, Dániel/0000-0002-8790-252X}
+}
+
+@inproceedings{MTMT:3398313,
+	title = {Incremental View Model Synchronization Using Partial Models},
+	url = {https://m2.mtmt.hu/api/publication/3398313},
+	author = {Marussy, Kristóf and Semeráth, Oszkár and Varró, Dániel},
+	booktitle = {ACM/IEEE 21st International Conference on Model Driven Engineering Languages and Systems},
+	doi = {10.1145/3239372.3239412},
+	unique-id = {3398313},
+	year = {2018},
+	pages = {323-333},
+	orcid-numbers = {Marussy, Kristóf/0000-0002-9135-8256; Varró, Dániel/0000-0002-8790-252X}
 }
 
 @inproceedings{MTMT:3335161,
@@ -211,16 +253,21 @@
 	orcid-numbers = {Varró, Dániel/0000-0002-8790-252X}
 }
 
-@inproceedings{MTMT:3398313,
-	title = {Incremental View Model Synchronization Using Partial Models},
-	url = {https://m2.mtmt.hu/api/publication/3398313},
-	author = {Marussy, Kristóf and Semeráth, Oszkár and Varró, Dániel},
-	booktitle = {ACM/IEEE 21st International Conference on Model Driven Engineering Languages and Systems},
-	doi = {10.1145/3239372.3239412},
-	unique-id = {3398313},
-	year = {2018},
-	pages = {323-333},
-	orcid-numbers = {Marussy, Kristóf/0000-0002-9135-8256; Varró, Dániel/0000-0002-8790-252X}
+@article{MTMT:3229152,
+	title = {Evaluating Well-Formedness Constraints on Incomplete Models},
+	url = {https://m2.mtmt.hu/api/publication/3229152},
+	author = {Semeráth, Oszkár and Varró, Dániel},
+	doi = {10.14232/actacyb.23.2.2017.15},
+	journal-iso = {ACTA CYBERN-SZEGED},
+	journal = {ACTA CYBERNETICA},
+	volume = {23},
+	unique-id = {3229152},
+	issn = {0324-721X},
+	abstract = {In modern modeling tools used for model-driven development, the valida- tion of several well-formedness constraints is continuously been carried out by exploiting advanced graph query engines to highlight conceptual design aws. However, while models are still under development, they are frequently par- tial and incomplete. Validating constraints on incomplete, partial models may identify a large number of irrelevant problems. By switching o the val- idation of these constraints, one may fail to reveal problematic cases which are dicult to correct when the model becomes suciently detailed. Here, we propose a novel validation technique for evaluating well-formed- ness constraints on incomplete, partial models with may and must semantics, e.g. a constraint without a valid match is satisable if there is a completion of the partial model that may satisfy it. To this end, we map the problem of constraint evaluation over partial models into regular graph pattern matching over complete models by semantically equivalent rewrites of graph queries.},
+	year = {2017},
+	eissn = {2676-993X},
+	pages = {687-713},
+	orcid-numbers = {Varró, Dániel/0000-0002-8790-252X}
 }
 
 @article{MTMT:3018014,
@@ -266,23 +313,6 @@
 	orcid-numbers = {Varró, Dániel/0000-0002-8790-252X}
 }
 
-@article{MTMT:3229152,
-	title = {Evaluating Well-Formedness Constraints on Incomplete Models},
-	url = {https://m2.mtmt.hu/api/publication/3229152},
-	author = {Semeráth, Oszkár and Varró, Dániel},
-	doi = {10.14232/actacyb.23.2.2017.15},
-	journal-iso = {ACTA CYBERN-SZEGED},
-	journal = {ACTA CYBERNETICA},
-	volume = {23},
-	unique-id = {3229152},
-	issn = {0324-721X},
-	abstract = {In modern modeling tools used for model-driven development, the valida- tion of several well-formedness constraints is continuously been carried out by exploiting advanced graph query engines to highlight conceptual design aws. However, while models are still under development, they are frequently par- tial and incomplete. Validating constraints on incomplete, partial models may identify a large number of irrelevant problems. By switching o the val- idation of these constraints, one may fail to reveal problematic cases which are dicult to correct when the model becomes suciently detailed. Here, we propose a novel validation technique for evaluating well-formed- ness constraints on incomplete, partial models with may and must semantics, e.g. a constraint without a valid match is satisable if there is a completion of the partial model that may satisfy it. To this end, we map the problem of constraint evaluation over partial models into regular graph pattern matching over complete models by semantically equivalent rewrites of graph queries.},
-	year = {2017},
-	eissn = {2676-993X},
-	pages = {687-713},
-	orcid-numbers = {Varró, Dániel/0000-0002-8790-252X}
-}
-
 @article{MTMT:3277444,
 	title = {Graph constraint evaluation over partial models by constraint rewriting},
 	url = {https://m2.mtmt.hu/api/publication/3277444},
@@ -302,27 +332,15 @@
 	orcid-numbers = {Varró, Dániel/0000-0002-8790-252X}
 }
 
-@inproceedings{MTMT:3018468,
-	title = {Iterative and incremental model generation by logic solvers},
-	url = {https://m2.mtmt.hu/api/publication/3018468},
-	author = {Semeráth, Oszkár and Vörös, András and Varró, Dániel},
-	booktitle = {Fundamental Approaches to Software Engineering},
-	doi = {10.1007/978-3-662-49665-7_6},
-	unique-id = {3018468},
+@CONFERENCE{MTMT:3172186,
+	title = {Validation of Well-formedness Constraints on Uncertain Models},
+	url = {https://m2.mtmt.hu/api/publication/3172186},
+	author = {Semeráth, Oszkár and Varró, Dániel},
+	booktitle = {The 10th Jubilee Conference of PhD Students in Computer Science (CS2)},
+	unique-id = {3172186},
 	year = {2016},
-	pages = {87-103},
+	pages = {68-68},
 	orcid-numbers = {Varró, Dániel/0000-0002-8790-252X}
-}
-
-@inproceedings{MTMT:3092093,
-	title = {Change Propagation of View Models by Logic Synthesis using SAT solvers.},
-	url = {https://m2.mtmt.hu/api/publication/3092093},
-	author = {Semeráth, Oszkár and Debreceni, Csaba and Horváth, Ákos and Varró, Dániel},
-	booktitle = {Proceedings of the 5th International Workshop on Bidirectional Transformations, Bx 2016, co-located with The European Joint Conferences on Theory and Practice of Software, ETAPS 2016, Eindhoven, The Netherlands, April 8, 2016.},
-	unique-id = {3092093},
-	year = {2016},
-	pages = {40-44},
-	orcid-numbers = {Debreceni, Csaba/0000-0002-6263-7758; Varró, Dániel/0000-0002-8790-252X}
 }
 
 @inproceedings{MTMT:3169820,
@@ -355,6 +373,18 @@
 	orcid-numbers = {Debreceni, Csaba/0000-0002-6263-7758; Varró, Dániel/0000-0002-8790-252X}
 }
 
+@inproceedings{MTMT:3018468,
+	title = {Iterative and incremental model generation by logic solvers},
+	url = {https://m2.mtmt.hu/api/publication/3018468},
+	author = {Semeráth, Oszkár and Vörös, András and Varró, Dániel},
+	booktitle = {Fundamental Approaches to Software Engineering},
+	doi = {10.1007/978-3-662-49665-7_6},
+	unique-id = {3018468},
+	year = {2016},
+	pages = {87-103},
+	orcid-numbers = {Varró, Dániel/0000-0002-8790-252X}
+}
+
 @CONFERENCE{MTMT:3169934,
 	title = {Formal Validation and Model Synthesis for Domain-specific Languages by Logic Solvers},
 	url = {https://m2.mtmt.hu/api/publication/3169934},
@@ -364,23 +394,15 @@
 	year = {2016}
 }
 
-@CONFERENCE{MTMT:3172186,
-	title = {Validation of Well-formedness Constraints on Uncertain Models},
-	url = {https://m2.mtmt.hu/api/publication/3172186},
-	author = {Semeráth, Oszkár and Varró, Dániel},
-	booktitle = {The 10th Jubilee Conference of PhD Students in Computer Science (CS2)},
-	unique-id = {3172186},
+@inproceedings{MTMT:3092093,
+	title = {Change Propagation of View Models by Logic Synthesis using SAT solvers.},
+	url = {https://m2.mtmt.hu/api/publication/3092093},
+	author = {Semeráth, Oszkár and Debreceni, Csaba and Horváth, Ákos and Varró, Dániel},
+	booktitle = {Proceedings of the 5th International Workshop on Bidirectional Transformations, Bx 2016, co-located with The European Joint Conferences on Theory and Practice of Software, ETAPS 2016, Eindhoven, The Netherlands, April 8, 2016.},
+	unique-id = {3092093},
 	year = {2016},
-	pages = {68-68},
-	orcid-numbers = {Varró, Dániel/0000-0002-8790-252X}
-}
-
-@misc{MTMT:27470681,
-	title = {Formal Validation and Model Synthesis for Domain-specific Languages by Logic Solvers},
-	url = {https://m2.mtmt.hu/api/publication/27470681},
-	author = {Semeráth, Oszkár},
-	unique-id = {27470681},
-	year = {2016}
+	pages = {40-44},
+	orcid-numbers = {Debreceni, Csaba/0000-0002-6263-7758; Varró, Dániel/0000-0002-8790-252X}
 }
 
 @CONFERENCE{MTMT:3017909,
@@ -423,6 +445,20 @@
 	orcid-numbers = {Varró, Dániel/0000-0002-8790-252X}
 }
 
+@CONFERENCE{MTMT:2813997,
+	title = {Movie database case: An EMF-IncQuery solution},
+	url = {https://m2.mtmt.hu/api/publication/2813997},
+	author = {Szárnyas, Gábor and Semeráth, Oszkár and Izsó, Benedek and Debreceni, Csaba and Hegedüs, Ábel and Ujhelyi, Zoltán and Bergmann, Gábor},
+	booktitle = {7th Transformation Tool Contest},
+	unique-id = {2813997},
+	abstract = {This paper presents a solution for the Movie Database Case of the 
+		Transformation Tool Contest 2014, using EMF-INCQUERY and Xtend 
+		for implementing the model transformation.},
+	year = {2014},
+	pages = {103-115},
+	orcid-numbers = {Debreceni, Csaba/0000-0002-6263-7758; Hegedüs, Ábel/0000-0002-8940-4348; Ujhelyi, Zoltán/0000-0002-2091-6441; Bergmann, Gábor/0000-0002-2556-2582}
+}
+
 @CONFERENCE{MTMT:2801379,
 	title = {On Open Source Tools for Behavioral Modeling and Analysis with fUML and Alf},
 	url = {https://m2.mtmt.hu/api/publication/2801379},
@@ -444,20 +480,6 @@
 	year = {2014},
 	pages = {31-41},
 	orcid-numbers = {Micskei, Zoltán Imre/0000-0003-1846-261X; Varró, Dániel/0000-0002-8790-252X}
-}
-
-@CONFERENCE{MTMT:2813997,
-	title = {Movie database case: An EMF-IncQuery solution},
-	url = {https://m2.mtmt.hu/api/publication/2813997},
-	author = {Szárnyas, Gábor and Semeráth, Oszkár and Izsó, Benedek and Debreceni, Csaba and Hegedüs, Ábel and Ujhelyi, Zoltán and Bergmann, Gábor},
-	booktitle = {7th Transformation Tool Contest},
-	unique-id = {2813997},
-	abstract = {This paper presents a solution for the Movie Database Case of the 
-		Transformation Tool Contest 2014, using EMF-INCQUERY and Xtend 
-		for implementing the model transformation.},
-	year = {2014},
-	pages = {103-115},
-	orcid-numbers = {Debreceni, Csaba/0000-0002-6263-7758; Hegedüs, Ábel/0000-0002-8940-4348; Ujhelyi, Zoltán/0000-0002-2091-6441; Bergmann, Gábor/0000-0002-2556-2582}
 }
 
 @article{MTMT:2694711,
