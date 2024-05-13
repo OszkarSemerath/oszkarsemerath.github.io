@@ -12,8 +12,8 @@ He won IEEE/ACM best paper award at the MODELS 2013 conference, Young Researcher
 
 ## Education
 
-* PhD [dissertation](https://oszkarsemerath.github.io/content/phd-thesis-semerath.pdf)
-* BSc and MSc at Budapest University of Technology
+* PhD at Budapest University of Technology and Ecomomics, [dissertation](https://oszkarsemerath.github.io/content/phd-thesis-semerath.pdf)
+* BSc and MSc at Budapest University of Technology and Ecomomics
 
 ## Publications
 
