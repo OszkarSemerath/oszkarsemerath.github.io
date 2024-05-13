@@ -6,7 +6,7 @@ He won IEEE/ACM best paper award at the MODELS 2013 conference, Young Researcher
 
 ## Research Interest
 
-Modeling Tools and Technologies, Formal Logic
+Modeling Tools and Technologies, Graph-Based Modeling and Graph Transformation, Formal Logic
 
 ## Education
 
