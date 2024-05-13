@@ -10,7 +10,7 @@ Modeling Tools and Technologies, Graph-Based Modeling and Graph Transformation, 
 
 ## Education
 
-* PhD [dissertation](https://oszkarsemerath.github.io/content/phd-thesis-semerath.pdf) 
+* PhD [**dissertation**](https://oszkarsemerath.github.io/content/phd-thesis-semerath.pdf) 
 
 ## Publications
 
