@@ -8,5 +8,10 @@ h2 {
   text-align: center;
 }
 a {
-  text-decoration-style: none
+    color: #5174ff;
+    font-weight: Normal
+}
+a:hover,a:focus {
+    color: #00197c;
+    font-weight: Normal
 }
