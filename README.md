@@ -1,5 +1,5 @@
-[LINK](https://oszkarsemerath.github.io)
-
+[LINK to deployment](https://oszkarsemerath.github.io)
+[Link to MTMT export](https://m2.mtmt.hu/api/publication?cond=published;eq;true&cond=core;eq;true&cond=authors.mtid;eq;10045161&sort=publishedYear,desc&sort=firstAuthor,asc&page=1&size=20&fields=template&labelLang=hun&cite_type=2)  
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/OszkarSemerath/oszkarsemerath.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
